@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    background-image: url('./bg-img.jpg');
+    background-size: 100% 600%;
+    background-position: 100% 70%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header div {
+
+    /* display: inline-block; */
+    margin-left: 70%;
+    position: relative;
+    top: -20px
+        /* margin-top: 0%; */
+
+}
+
+header p {
+    /* display: inline-block; */
+    color: white;
+    margin-left: 17%;
+    font-size: small;
+    color: gray;
+}
+
+.login {
+    border-radius: 50px;
+    border: 0;
+    font-size: smaller;
+    color: #fff;
+    padding: 6px 12px;
+    background: rgb(32, 191, 85);
+    background: linear-gradient(0deg, rgba(1, 186, 239, 1) 0%, rgba(111, 221, 0, 1) 100%)
+}
+.register{
+    background:none;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+}
+
