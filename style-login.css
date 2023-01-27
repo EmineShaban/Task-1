@@ -186,12 +186,12 @@ footer p{
 } */
 footer p.pravicy{
     /* display: block; */
- margin-bottom: 10px;
+ margin-bottom: 2px;
 }
-span.pravicy2{
+span{
     
-padding-left: 3px; /* margin-bottom: 10px; */
-color: red;
+margin-left: 5px; /* margin-bottom: 10px; */
+/* color: red; */
 
 }
 /* footer p.pravicy2{
@@ -202,6 +202,9 @@ footer div.line{
     color: #fff;
     font-size: 20px;
     display: block;
+    margin-top: -25px;
+
+    margin-bottom: 25px;
     /* grid-template-columns: repeat(2, 500px);
     grid-template-rows: repeat(1, 500px);
     grid-template-areas:
@@ -213,7 +216,7 @@ footer span.line1{
     width: 30%;
     font-size: 4px;
     border: solid 1px #004d7a;
-    margin-left: 14%;
+    margin-left: 13.5%;
     display: block;
     /* grid-area:line; */
 }
@@ -224,18 +227,26 @@ footer span.line2{
     margin-left: 56%;
     display: block;
     position: relative;
-    bottom: 1px;
+    bottom: 2px;
 }
 footer p.copyright{
-    padding: 7px 10px;
-    position:relative;
-    top: 27px;
-    background:none;
-}
+    /* padding: 7px 10px; */
+    font-size: 12px;
 
-footer div.icons{
-    margin-top: 25px;
-    color: #fff;
+    position:relative;
+    top: 20px;
+    background:none;
+
+}
+footer div.icons {
+
     text-align: center;
-font-size: 25px;
+}
+footer div.icons i{
+    background-color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 3px;
+    padding: 1px 2px;
+    border-radius: 2px;
 }
