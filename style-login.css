@@ -122,7 +122,7 @@ article.login-section div i#mail{
     position: relative;
     bottom: 2px;
     left: 33px;
-    background-color: lightgray;
+    background-color: rgb(228, 228, 227);
     padding: 8px 8px 10px 8px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -133,7 +133,7 @@ article.login-section div i#lock{
     position: relative;
     bottom: 2px;
     left: 33px;
-    background-color: lightgray;
+    background-color: rgb(228, 228, 227);
     padding: 8px 10px 10px 10px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -166,3 +166,76 @@ article.login-section div p.create-account{
 }
 
 
+/* footer */
+
+footer{
+    height: 150px;
+    /* text-align: center; */
+
+    font-size: 12px;
+
+}
+footer p{
+    color: lightgray;
+        text-align: center;
+
+}
+/* footer div{
+    display: block;
+
+} */
+footer p.pravicy{
+    /* display: block; */
+ margin-bottom: 10px;
+}
+span.pravicy2{
+    
+padding-left: 3px; /* margin-bottom: 10px; */
+color: red;
+
+}
+/* footer p.pravicy2{
+    display: block;
+ margin-bottom: 10px;
+} */
+footer div.line{
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    /* grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(1, 500px);
+    grid-template-areas:
+        'line 0 line2'
+    ; */
+
+}
+footer span.line1{
+    width: 30%;
+    font-size: 4px;
+    border: solid 1px #004d7a;
+    margin-left: 14%;
+    display: block;
+    /* grid-area:line; */
+}
+footer span.line2{
+    width: 30%;
+    font-size: 4px;
+    border: solid 1px #004d7a;
+    margin-left: 56%;
+    display: block;
+    position: relative;
+    bottom: 1px;
+}
+footer p.copyright{
+    padding: 7px 10px;
+    position:relative;
+    top: 27px;
+    background:none;
+}
+
+footer div.icons{
+    margin-top: 25px;
+    color: #fff;
+    text-align: center;
+font-size: 25px;
+}
