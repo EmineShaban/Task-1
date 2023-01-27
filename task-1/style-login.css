@@ -105,22 +105,32 @@ article.login-section div p.find {
 }
 
 article.login-section div input {
-    width: 82%;
+    width: 83%;
     margin-bottom: 10px;
-    margin-left: 6px;
+    margin-left: 35px;
     border: double 1px lightgrey;
-    padding-top: 7px;
+    padding: 7px 25px 7px 5px;
+    /* padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 33px;
-    padding-right: 25px;
-    border-radius: 5px;
+    padding-right: 25px; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* border-radius: 5px; */
+
+}
+article.login-section div input.redBorder {
+  
+    border: double 1px red;
+ 
 
 }
 
 article.login-section div i#mail {
+    width: 11px;
     position: relative;
-    bottom: 2px;
-    left: 33px;
+    bottom: 1.5px;
+    left: 35px;
     background-color: rgb(228, 228, 227);
     padding: 8px 8px 10px 8px;
     border-top-left-radius: 5px;
@@ -131,8 +141,8 @@ article.login-section div i#mail {
 
 article.login-section div i#lock {
     position: relative;
-    bottom: 2px;
-    left: 33px;
+    bottom: 1.5px;
+    left: 35px;
     background-color: rgb(228, 228, 227);
     padding: 8px 10px 10px 10px;
     border-top-left-radius: 5px;

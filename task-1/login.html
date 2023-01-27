@@ -31,16 +31,19 @@
             <div class="login-input">
                 <p class="header-login">Login</p>
                 <p class="find">Find more about us</p>
-                <div>
-                    <i id="mail" class="fa fa-envelope" aria-hidden="true"></i><input type="email" placeholder="Email">
-                </div>
-                <div>
-                    <i id="lock" class="fa fa-lock" aria-hidden="true"></i><input type="password" placeholder="Password">
-                </div>
+                <form action="">
+                    <div>
+                        <i id="mail" class="fa fa-envelope" aria-hidden="true"></i><input type="email" placeholder="Email" id="email" name="email" required>
+                    </div>
+                    
+                    <div>
+                        <i id="lock" class="fa fa-lock" aria-hidden="true"></i><input type="password" placeholder="Password" id="password" name="password" required>
+                    </div>
+                    <p class="forgot">Forgot Password</p>
+                    <button id="loginButton">LOGIN <i class="fa fa-sign-in" aria-hidden="true"></i></button>
+                    <p class="create-account">Not a member yet? Create an account </p>
+                </form>
 
-                <p class="forgot">Forgot Password</p>
-                <button>LOGIN <i class="fa fa-sign-in" aria-hidden="true"></i></button>
-                <p class="create-account">Not a member yet? Create an account </p>
             </div>
         </article>
     </section>
@@ -64,5 +67,6 @@
     </footer>
 
 </body>
+<script src="./login.js"></script>
 
 </html>
