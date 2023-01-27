@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:display=swap');
 
 body {
-    background-image: url('./bg-img.jpg');
+    background-image: url('../bg-img.jpg');
     /* background-size: 100% 100%;
     background-position: 100% 100%; */
     font-family: 'Ubuntu', sans-serif;
@@ -113,12 +113,11 @@ article.login-section div input {
     padding-bottom: 7px;
     padding-left: 33px;
     padding-right: 25px;
-
     border-radius: 5px;
 
 }
 
-article.login-section div i#mail{
+article.login-section div i#mail {
     position: relative;
     bottom: 2px;
     left: 33px;
@@ -129,7 +128,8 @@ article.login-section div i#mail{
     font-size: 11px;
 
 }
-article.login-section div i#lock{
+
+article.login-section div i#lock {
     position: relative;
     bottom: 2px;
     left: 33px;
@@ -140,7 +140,8 @@ article.login-section div i#lock{
     font-size: 11px;
 
 }
-article.login-section div p.forgot{
+
+article.login-section div p.forgot {
     text-align: right;
     font-size: smaller;
     color: lightcoral;
@@ -148,7 +149,8 @@ article.login-section div p.forgot{
     margin-right: 4%;
     margin-top: 0%;
 }
-article.login-section div button{
+
+article.login-section div button {
     margin-left: 44%;
     padding: 7px 18px;
     font-size: 12px;
@@ -159,7 +161,7 @@ article.login-section div button{
 
 }
 
-article.login-section div p.create-account{
+article.login-section div p.create-account {
     text-align: center;
     color: darkgrey;
     font-size: 11px;
@@ -168,59 +170,43 @@ article.login-section div p.create-account{
 
 /* footer */
 
-footer{
+footer {
     height: 150px;
-    /* text-align: center; */
-
     font-size: 12px;
-
 }
-footer p{
+
+footer p {
     color: lightgray;
-        text-align: center;
+    text-align: center;
 
 }
-/* footer div{
-    display: block;
 
-} */
-footer p.pravicy{
-    /* display: block; */
- margin-bottom: 2px;
+footer p.pravicy {
+    margin-bottom: 2px;
 }
-span{
-    
-margin-left: 5px; /* margin-bottom: 10px; */
-/* color: red; */
 
+span {
+    margin-left: 5px;
 }
-/* footer p.pravicy2{
-    display: block;
- margin-bottom: 10px;
-} */
-footer div.line{
+
+footer div.line {
     color: #fff;
     font-size: 20px;
     display: block;
     margin-top: -25px;
-
     margin-bottom: 25px;
-    /* grid-template-columns: repeat(2, 500px);
-    grid-template-rows: repeat(1, 500px);
-    grid-template-areas:
-        'line 0 line2'
-    ; */
 
 }
-footer span.line1{
+
+footer span.line1 {
     width: 30%;
     font-size: 4px;
     border: solid 1px #004d7a;
     margin-left: 13.5%;
     display: block;
-    /* grid-area:line; */
 }
-footer span.line2{
+
+footer span.line2 {
     width: 30%;
     font-size: 4px;
     border: solid 1px #004d7a;
@@ -229,20 +215,19 @@ footer span.line2{
     position: relative;
     bottom: 2px;
 }
-footer p.copyright{
-    /* padding: 7px 10px; */
+
+footer p.copyright {
     font-size: 12px;
-
-    position:relative;
+    position: relative;
     top: 20px;
-    background:none;
-
+    background: none;
 }
-footer div.icons {
 
+footer div.icons {
     text-align: center;
 }
-footer div.icons i{
+
+footer div.icons i {
     background-color: #fff;
     font-size: 20px;
     text-align: center;
