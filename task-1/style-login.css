@@ -15,7 +15,7 @@ header div {
 }
 
 header p {
-    color: white;
+    color: #f7faff;
     margin-top: 15px;
     margin-left: 15%;
     font-size: small;
@@ -26,16 +26,16 @@ header p {
     border-radius: 50px;
     border: 0;
     font-size: small;
-    color: #fff;
+    color: #faf9fd;
     padding: 6px 10px;
     background: rgb(32, 191, 85);
-    background: linear-gradient(0deg, rgba(1, 186, 239, 1) 20%, rgba(86, 226, 182, 1) 80%)
+    background: linear-gradient(0deg, rgba(61,170,210,255) 50%, rgba(113,194,157,255) 50%)
 }
 
 .register {
     background: none;
     border: 0;
-    color: #fff;
+    color: #faf9fd;
     font-weight: bold;
     font-size: x-small;
 
@@ -50,14 +50,14 @@ div.header-section {
 }
 
 section p.p-login {
-    color: #fff;
+    color: #faf9fd;
     margin-bottom: 0px;
     font-weight: bolder;
     font-size: 30px;
 }
 
 section p {
-    color: #fff;
+    color: #faf9fd;
     margin-top: 5px;
 }
 
@@ -74,7 +74,7 @@ article.login-section div.login-input {
     height: 40%;
     border: double 2px transparent;
     border-radius: 10px;
-    background-image: linear-gradient(white, white), linear-gradient(to left, #56E2B6, #004d7a);
+    background-image: linear-gradient(white, white), linear-gradient(to left, #d0f1ef, #1325a1);
     background-origin: border-box;
     background-clip: content-box, border-box;
 
@@ -121,7 +121,7 @@ article.login-section div input {
 }
 article.login-section div input.redBorder {
   
-    border: double 1px red;
+    border: double 1px #ff5a5a;
  
 
 }
@@ -154,7 +154,7 @@ article.login-section div i#lock {
 article.login-section div p.forgot {
     text-align: right;
     font-size: smaller;
-    color: lightcoral;
+    color: #ff5a5a;
     font-weight: 100;
     margin-right: 4%;
     margin-top: 0%;
@@ -166,7 +166,7 @@ article.login-section div button {
     font-size: 12px;
     border-radius: 15px;
     border: none;
-    background-color: #4fd7ac;
+    background-color: #2dc0ad;
     color: #fff;
 
 }
@@ -211,7 +211,7 @@ footer div.line {
 footer span.line1 {
     width: 30%;
     font-size: 4px;
-    border: solid 1px #004d7a;
+    border: solid 1px #031f4c;
     margin-left: 13.5%;
     display: block;
 }
@@ -219,7 +219,7 @@ footer span.line1 {
 footer span.line2 {
     width: 30%;
     font-size: 4px;
-    border: solid 1px #004d7a;
+    border: solid 1px #031f4c;
     margin-left: 56%;
     display: block;
     position: relative;

@@ -15,7 +15,7 @@ header div {
 }
 
 header p {
-    color: white;
+    color: #f7faff;
     margin-top: 15px;
     margin-left: 15%;
     font-size: small;
@@ -26,7 +26,7 @@ header p {
     border-radius: 50px;
     border: 0;
     font-size: small;
-    color: #fff;
+    color: #f7faff;
     padding: 6px 10px;
     background: rgb(32, 191, 85);
     background: linear-gradient(0deg, rgba(1, 186, 239, 1) 20%, rgba(86, 226, 182, 1) 80%)
@@ -83,14 +83,14 @@ div.header-section {
 }
 
 section p.p-register {
-    color: #fff;
+    color: #faf9fd;
     margin-bottom: 0px;
     font-weight: bolder;
     font-size: 30px;
 }
 
 section p {
-    color: #fff;
+    color: #faf9fd;
     margin-top: 5px;
 }
 
@@ -120,7 +120,7 @@ article.register-section div.register-input {
 
 article.register-section div input.redBorder {
   
-    border: double 1px red;
+    border: double 1px #ff5a5a;
  
 
 }
@@ -184,7 +184,7 @@ article.register-section div button {
     font-size: 12px;
     border-radius: 15px;
     border: none;
-    background-color: #4fd7ac;
+    background-color: #2dc0ad;
     color: #fff;
 
 }
@@ -240,7 +240,7 @@ footer div.line {
 footer span.line1 {
     width: 30%;
     font-size: 4px;
-    border: solid 1px #004d7a;
+    border: solid 1px #031f4c;
     margin-left: 13.5%;
     display: block;
 }
@@ -248,7 +248,7 @@ footer span.line1 {
 footer span.line2 {
     width: 30%;
     font-size: 4px;
-    border: solid 1px #004d7a;
+    border: solid 1px #031f4c;
     margin-left: 56%;
     display: block;
     position: relative;
