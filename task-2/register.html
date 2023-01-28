@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style-register.css">
     <script src="https://use.fontawesome.com/6418f21660.js"></script>
     <script src="https://kit.fontawesome.com/17964ab55d.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -27,7 +28,16 @@
         </div>
 
 
-        <article class="register-section">
+        <div class="registerDiv" id="registerDiv">
+            <p id="registerDivP">Welcome!</p>
+        </div>
+
+
+        
+        <article class="register-section" id="register-input">
+            
+
+
             <div class="register-input">
                 <p class="header-register">Register</p>
                 <p class="find">Find more about us</p>
@@ -51,7 +61,7 @@
                 </div>
                 <div>
                     <label for="">Confirm Password</label>
-                    <input type="password" placeholder="Confirm Password" name="confirmPassword" id="confirmPassword" required>
+                    <input type="password" placeholder="Confirm Password" name="confirmPassword"  minlength="6" maxlength="25" id="confirmPassword" required>
                 </div>
 
                 <div class="checkbox">
@@ -90,6 +100,6 @@
             <i class="fa-solid fa-paper-plane"></i>
     </footer>
 
+    <script src="./register.js"></script>
 </body>
-<script src="./register.js"></script>
 </html>
