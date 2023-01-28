@@ -1,8 +1,12 @@
 
-document.getElementById('loginButton').addEventListener('click', function e() {
+document.getElementById('loginButton').addEventListener('click', function e(event) {
+    event.preventDefault()
     let emailInput = document.getElementById('email')
     let passwordInput = document.getElementById('password')
     if (emailInput.value == 'hello@ab.bg' && passwordInput.value == '1234') {
+        emailInput.classList.remove('redBorder')
+        passwordInput.classList.remove('redBorder')
+
         let obj = {
             username: emailInput.value,
             password: passwordInput.value

@@ -29,7 +29,7 @@ header p {
     color: #faf9fd;
     padding: 6px 10px;
     background: rgb(32, 191, 85);
-    background: linear-gradient(0deg, rgba(61,170,210,255) 50%, rgba(113,194,157,255) 50%)
+    background: linear-gradient(0deg, rgba(61, 170, 210, 255) 50%, rgba(113, 194, 157, 255) 50%)
 }
 
 .register {
@@ -74,7 +74,7 @@ article.login-section div.login-input {
     height: 45%;
     border: double 2px transparent;
     border-radius: 10px;
-    background-image: linear-gradient(white, white), linear-gradient(to left, #d0f1ef, #1325a1);
+    background-image: linear-gradient(white, white), linear-gradient(to left, #93e3de, #1325a1);
     background-origin: border-box;
     background-clip: content-box, border-box;
 
@@ -105,7 +105,7 @@ article.login-section div p.find {
 }
 
 article.login-section div input {
-    position:relative;
+    position: relative;
     width: 86%;
     margin-bottom: 10px;
     margin-left: 40px;
@@ -116,24 +116,25 @@ article.login-section div input {
     border-bottom-right-radius: 5px;
 
 }
+
 article.login-section div input.redBorder {
-  
+
     border: double 1px #ff5a5a;
- 
+
 
 }
 
 article.login-section div i#mail {
     width: 11px;
     position: absolute;
-bottom: 145px;
-left: 13px;
+    bottom: 145px;
+    left: 13px;
     background-color: rgb(228, 228, 227);
     padding: 8px 8px 10px 8px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     font-size: 11px;
-
+    color: #505756;
 }
 
 article.login-section div i#lock {
@@ -145,6 +146,7 @@ article.login-section div i#lock {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     font-size: 11px;
+    color: #505756;
 
 }
 
@@ -182,15 +184,18 @@ footer {
     font-size: 12px;
 }
 
-footer p {
+footer p{
     color: lightgray;
     text-align: center;
+    margin-bottom: 23px;
+}
+footer p.put {
+    color: lightgray;
+    text-align: center;
+    margin-bottom: 14px;
 
 }
 
-footer p.pravicy {
-    margin-bottom: 2px;
-}
 
 span {
     margin-left: 5px;
@@ -208,7 +213,7 @@ footer div.line {
 footer span.line1 {
     width: 30%;
     font-size: 4px;
-    border: solid 1px #031f4c;
+    border: solid 1px #04255b;
     margin-left: 13.5%;
     display: block;
 }
@@ -216,7 +221,7 @@ footer span.line1 {
 footer span.line2 {
     width: 30%;
     font-size: 4px;
-    border: solid 1px #031f4c;
+    border: solid 1px #04255b;
     margin-left: 56%;
     display: block;
     position: relative;
@@ -226,7 +231,7 @@ footer span.line2 {
 footer p.copyright {
     font-size: 12px;
     position: relative;
-    top: 20px;
+    top: 29px;
     background: none;
 }
 
