@@ -71,15 +71,15 @@ article.login-section {
 
 article.login-section div.login-input {
     width: 67%;
-    height: 40%;
+    height: 45%;
     border: double 2px transparent;
     border-radius: 10px;
     background-image: linear-gradient(white, white), linear-gradient(to left, #d0f1ef, #1325a1);
     background-origin: border-box;
     background-clip: content-box, border-box;
 
-    position: absolute;
-    top: 60%;
+    position: relative;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -105,18 +105,15 @@ article.login-section div p.find {
 }
 
 article.login-section div input {
-    width: 83%;
+    position:relative;
+    width: 86%;
     margin-bottom: 10px;
-    margin-left: 35px;
+    margin-left: 40px;
     border: double 1px lightgrey;
     padding: 7px 25px 7px 5px;
-    /* padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 33px;
-    padding-right: 25px; */
+
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    /* border-radius: 5px; */
 
 }
 article.login-section div input.redBorder {
@@ -128,9 +125,9 @@ article.login-section div input.redBorder {
 
 article.login-section div i#mail {
     width: 11px;
-    position: relative;
-    bottom: 1.5px;
-    left: 35px;
+    position: absolute;
+bottom: 145px;
+left: 13px;
     background-color: rgb(228, 228, 227);
     padding: 8px 8px 10px 8px;
     border-top-left-radius: 5px;
@@ -140,9 +137,9 @@ article.login-section div i#mail {
 }
 
 article.login-section div i#lock {
-    position: relative;
-    bottom: 1.5px;
-    left: 35px;
+    position: absolute;
+    bottom: 104px;
+    left: 13px;
     background-color: rgb(228, 228, 227);
     padding: 8px 10px 10px 10px;
     border-top-left-radius: 5px;
