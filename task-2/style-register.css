@@ -90,6 +90,13 @@ article.register-section div.register-input {
 
 }
 
+article.register-section div input.redBorder {
+  
+    border: double 1px red;
+ 
+
+}
+
 article.register-section div p {
     color: black;
     font-size: smaller;

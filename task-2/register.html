@@ -31,25 +31,27 @@
             <div class="register-input">
                 <p class="header-register">Register</p>
                 <p class="find">Find more about us</p>
+                <form action=''>
+
                 <div>
                     <label for="">First Name</label>
-                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="First Name" name="First Name" id="firstName" minlength="2" maxlength="20" required>
                 </div>
                 <div>
                     <label for="">Last Name</label>
-                    <input type="text" placeholder="Last Name">
+                    <input type="text" placeholder="Last Name" name="Last Name" id="lastName"  minlength="2" maxlength="20" required>
                 </div>
                 <div>
                     <label for="">Email</label>
-                    <input type="email" placeholder="Email">
+                    <input type="email" placeholder="Email" name="email" id="email" required>
                 </div>
                 <div>
                     <label for="password">Password</label>
-                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Password" name="password" id="password" minlength="6" maxlength="25" required>
                 </div>
                 <div>
                     <label for="">Confirm Password</label>
-                    <input type="password" placeholder="Confirm Password">
+                    <input type="password" placeholder="Confirm Password" name="confirmPassword" id="confirmPassword" required>
                 </div>
 
                 <div class="checkbox">
@@ -62,8 +64,10 @@
                     <span>I hereby confirm that I meet the User requirements</span>
                 </div>
 
-                <button>REGISTER <i class="fa-solid fa-paper-plane"></i></button>
+                <button id="registerButton">REGISTER <i class="fa-solid fa-paper-plane"></i></button>
                 <p class="login-account">Already a member? Login</p>
+            </form>
+
             </div>
         </article>
     </section>
@@ -87,5 +91,5 @@
     </footer>
 
 </body>
-
+<script src="./register.js"></script>
 </html>
