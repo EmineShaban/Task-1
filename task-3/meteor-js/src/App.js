@@ -12,7 +12,6 @@ function App() {
     { name: 'Elena', age: '25', id: 3 },
   ]);
 
-  let aaa = 'dldldlldldld'
   const handleClick = () => {
     console.log('Button has been clicked')
   }
@@ -20,8 +19,7 @@ function App() {
 
 
     <div className="App">
-      <p>fflfkfklfkfk</p>
-      <p>{aaa}</p>
+
 
       {data.map((item, i) => (
         <div className='app' key={i}>
