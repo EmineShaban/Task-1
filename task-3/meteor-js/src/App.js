@@ -1,38 +1,40 @@
 // import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
 // import Template from 'react-templates';
 
 
 
 function App() {
-//   const data = [
-//     {
-//         name: 'Mia',
-//         age: '10'
-//     },
-//     {
-//         name: 'Ivan',
-//         age: '35'
-//     },
-//     {
-//         name: 'Elena',
-//         age: '25'
-//     },
-// ];
-// Template.aaaa.helpers
-let aaa = 'dldldlldldld'
-const handleClick = () =>{
-console.log('click')
-}
+  const [data, setData] = useState([
+    { name: 'Mia', age: '10', id: 1 },
+    { name: 'Ivan', age: '35', id: 2 },
+    { name: 'Elena', age: '25', id: 3 },
+  ]);
+
+  let aaa = 'dldldlldldld'
+  const handleClick = () => {
+    console.log('Button has been clicked')
+  }
   return (
 
 
     <div className="App">
-    <p>fflfkfklfkfk</p>
+      <p>fflfkfklfkfk</p>
+      <p>{aaa}</p>
 
-    <p>{aaa}</p>
+      {data.map((item, i) => (
+        <div className='app' key={i}>
+          <p>My name is {item.name}, I am {item.age} years old.</p>
 
-<button onClick={handleClick}>Click</button>
+        </div>
+      ))}
+
+
+
+
+
+      <button onClick={handleClick}>Click</button>
     </div>
   );
 }
